@@ -4,7 +4,11 @@ setup(
     name='raylib',
     version='0.1',
     packages=find_packages(),
-    install_requires=['requests', 'websocket-client', 'httpx[http2]', 'httpx'],)
+    install_requires=[
+        'httpx',
+        'websocket-client',
+        'requests',
+        'httpx[http2]'
     ],
 )
 
